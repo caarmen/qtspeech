@@ -4,6 +4,8 @@ PLUGIN_CLASS_NAME = QTextToSpeechPluginOsx
 
 load(qt_plugin)
 
+CONFIG -= debug
+
 QT += core texttospeech
 
 LIBS += -framework Cocoa
