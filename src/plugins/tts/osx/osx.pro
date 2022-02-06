@@ -6,9 +6,9 @@ load(qt_plugin)
 
 CONFIG -= debug
 
-QT += core texttospeech
+QT += core
 
-LIBS += -framework Cocoa
+LIBS += -framework Cocoa -lQt6TextToSpeech -L../../../../lib
 
 HEADERS += \
     qtexttospeech_osx_plugin.h \

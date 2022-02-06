@@ -4,7 +4,7 @@ DEFINES += QTEXTTOSPEECH_LIBRARY
 MODULE = texttospeech
 MODULE_PLUGIN_TYPES = texttospeech
 
-CONFIG -= debug
+CONFIG += staticlib
 load(qt_module)
 
 HEADERS = \
