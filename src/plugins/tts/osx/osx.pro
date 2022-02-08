@@ -4,9 +4,17 @@ PLUGIN_CLASS_NAME = QTextToSpeechPluginOsx
 
 load(qt_plugin)
 
-QT += core texttospeech
+QT += core
 
-LIBS += -framework Cocoa
+INCLUDEPATH += $$OUT_PWD/../../../../include
+
+LIBS += -framework Cocoa -L$$OUT_PWD/../../../../lib
+CONFIG(debug, debug|release) {
+    LIBS += -lQt6TextToSpeech_debug
+}
+CONFIG(release, debug|release) {
+    LIBS += -lQt6TextToSpeech
+}
 
 HEADERS += \
     qtexttospeech_osx_plugin.h \
