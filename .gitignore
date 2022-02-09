@@ -18,3 +18,17 @@ moc_*
 /lib/
 /mkspecs/
 
+.qmake.stash
+plugins/
+
+config.cache
+config.log
+config.opt
+config.summary
+config.tests/
+*.app
+src/doc/libdoc.prl
+src/doc/qdoc_wrapper.sh
+src/tts/qttexttospeech-config.h
+src/tts/qttexttospeech-config.pri
+src/tts/qttexttospeech-config_p.h
