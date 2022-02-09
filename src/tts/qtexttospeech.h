@@ -51,7 +51,7 @@
 QT_BEGIN_NAMESPACE
 
 class QTextToSpeechPrivate;
-class Q_TEXTTOSPEECH_EXPORT QTextToSpeech : public QObject
+class QTextToSpeech : public QObject
 {
     Q_OBJECT
     Q_PROPERTY(State state READ state NOTIFY stateChanged)
