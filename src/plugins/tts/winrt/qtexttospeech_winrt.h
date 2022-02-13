@@ -37,6 +37,7 @@
 #ifndef QTEXTTOSPEECHENGINE_WINRT_H
 #define QTEXTTOSPEECHENGINE_WINRT_H
 
+#include <windows.h>
 #include <QtTextToSpeech/qtexttospeechengine.h>
 #include <QtTextToSpeech/qvoice.h>
 
